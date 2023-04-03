@@ -1,21 +1,15 @@
-class Demo{       // BI
+class Demo{       // BJ
 	public static void main(String[] ebc){
-	   Maker m = new Maker();
-	   (Fiets) m.gaan().voortgaan();
+	   System.out.println("S");
+	   R r = new R();
+	   r.t();
+	   System.out.println("E");
 	}
 }
-class Fiets extends Voertuig {
-    int a;
-    void voortgaan() {
-        System.out.println("gaan in fiets");
+
+class R {
+    void t() {
+        System.out.println("T");
+        throw new RuntimeException();
     }
-}
-class Maker {
-    Fiets defiets = new Fiets();
-    Fiets gaan() {
-        System.out.println("in gaan");
-        return defiets;
-    }
-}
-class Voertuig {
 }
