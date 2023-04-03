@@ -1,27 +1,19 @@
-class Demo{       // CF
+class Demo{       // CG
 	public static void main(String[] ebc){
-	  	System.out.println("D");
-		Hoi h = new Hoi();
-		try {
-			h.go();
-			System.out.println("W");
-		} catch (Exception e) {
-			System.out.println("M");
-		} finally {
-			System.out.println("U");
-		}
-		System.out.println("A");
-
+		GGG ggg = new GGG();
+		ggg.ggg();
+		System.out.println("Prachtig");
 	}
 }
 
-class Hoi {
-	boolean eum;
-	void go() throws Exception {
-		if (!eum) {
-			throw new Error();
-		} else {
-			throw new Exception();
-		}
+class GGG {
+	void ggg() {
+		System.out.println("GGG");
+	}
+}
+
+class UUU extends GGG {
+	void ggg() {
+		throw new RuntimeException();
 	}
 }
