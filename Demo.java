@@ -1,4 +1,4 @@
-class Demo{       // AD
+class Demo{       // AE
     static int a = hoi();
     int b = doei();
 	public static void main(String args[]){
@@ -10,11 +10,11 @@ class Demo{       // AD
 		System.out.println("doei");
 	}
 
-	int hoi() {
+	static int hoi() {
 	    System.out.println("oeps");
 		return 7;
 	}
-	int doei(){
+	static int doei(){
 	    System.out.println("anders");
 		return 7;
 	}
