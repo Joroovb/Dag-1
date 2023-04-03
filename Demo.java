@@ -1,5 +1,5 @@
-class Demo{       // CI
-	public static void main(String[] ebc){
+class Demo{       // CJ
+	public static void main(String[] ebc) throws Exception {
 		GGG ggg = new UUU();
 		try {
 			ggg.ggg();
@@ -26,4 +26,4 @@ class UUU extends GGG {
 	}
 }
 
-class AB extends Error{}
+class AB extends RuntimeException{}
