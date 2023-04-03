@@ -1,9 +1,7 @@
-class Demo{       // AI
+class Demo{       // AJ
 	public static void main(String[] ebc){
 	    System.out.println("Let's go!");
-		Onder b = new Boven();
-		// Iedere meeuw is een vogel
-		// Niet iedere vogel is een meeuw
+		Boven b = new Onder();
 		b.hoi();
 	}
 }
@@ -15,7 +13,7 @@ class Boven {
 }
 
 class Onder extends Boven {
-    void hoi() {
+    void hoi(int a) {
         System.out.println("ik ben beneden");
     }
 }
