@@ -1,8 +1,11 @@
-class Demo{       // AL
+class Demo{       // AN
 	public static void main(String[] ebc){
 	    System.out.println("Let's go!");
-		Onder b = new Onder();
-		b.hoi(7);
+		hoezo().hoi();
+	}
+
+	static Boven hoezo() {
+	   return new Onder();
 	}
 }
 
@@ -13,7 +16,7 @@ class Boven {
 }
 
 class Onder extends Boven {
-    void hoi(int a) {
+    void hoi() {
         System.out.println("ik ben beneden");
     }
 }
