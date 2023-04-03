@@ -1,11 +1,13 @@
-class Demo{       // BE
+class Demo{       // BF
 	public static void main(String[] ebc){
 	   Maker m = new Maker();
 	   m.gaan().voortgaan();
-	   System.out.println(m.gaan().a);
+	   System.out.println(m.gaan().a++);
+	   System.out.println(m.gaan().a++);
 	}
 }
 class Fiets extends Voertuig {
+    int a;
     void voortgaan() {
         System.out.println("gaan in fiets");
     }
@@ -17,5 +19,4 @@ class Maker {
     }
 }
 class Voertuig {
-    int a;
 }
