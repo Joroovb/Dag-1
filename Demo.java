@@ -1,6 +1,6 @@
-class Demo{       // CR
+class Demo{       // CS
 	public static void main(String[] ebc) throws Exception {
-		Koe koe = new Koe();
+		Koe koe = new Tuin();
 		System.out.println(koe);		
 	}
 }
