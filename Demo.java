@@ -24,4 +24,4 @@ class UUU extends GGG {
 	}
 }
 
-class AB extends RuntimeException(){}
+class AB extends RuntimeException{}
