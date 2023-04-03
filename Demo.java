@@ -1,8 +1,8 @@
-class Demo{       // AK
+class Demo{       // AL
 	public static void main(String[] ebc){
 	    System.out.println("Let's go!");
 		Onder b = new Onder();
-		b.hoi();
+		b.hoi(7);
 	}
 }
 
