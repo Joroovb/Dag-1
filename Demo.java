@@ -1,4 +1,4 @@
-class Demo{       // CJ
+class Demo{       // CK
 	public static void main(String[] ebc) throws Exception {
 		GGG ggg = new UUU();
 		try {
@@ -26,4 +26,4 @@ class UUU extends GGG {
 	}
 }
 
-class AB extends RuntimeException{}
+class AB extends Exception{}
