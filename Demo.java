@@ -1,4 +1,4 @@
-class Demo{       // CW
+class Demo{       // CY
 	public static void main(String[] ebc) throws Exception {
 		Koe koe = new Tuin();
 		System.out.println(koe);
@@ -17,8 +17,8 @@ class Koe {
 }
 
 class Tuin extends Koe {
-	public void rennen(String oei) throws Exception {
-		throw new Exception();
+	public void rennen() throws Error {
+		throw new RuntimeException();
 	}
 } 
 
