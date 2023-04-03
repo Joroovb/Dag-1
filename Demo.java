@@ -1,4 +1,4 @@
-class Demo{       // CE
+class Demo{       // CF
 	public static void main(String[] ebc){
 	  	System.out.println("D");
 		Hoi h = new Hoi();
@@ -18,7 +18,7 @@ class Demo{       // CE
 class Hoi {
 	boolean eum;
 	void go() throws Exception {
-		if (eum) {
+		if (!eum) {
 			throw new Error();
 		} else {
 			throw new Exception();
