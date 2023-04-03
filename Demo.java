@@ -1,22 +1,19 @@
-class Demo{       // AN
+class Demo{       // BB
 	public static void main(String[] ebc){
-	    System.out.println("Let's go!");
-		hoezo().hoi();
-	}
-
-	static Boven hoezo() {
-	   return new Onder();
+	    System.out.println("maandag");
+		Fiets f = new Fiets();
+		f.mmh = 3;
+		Fiets f2 = new Fiets();
+		System.out.println(f2.mmh);
+		System.out.println(f2.hmm);
 	}
 }
 
-class Boven {
-    void hoi() {
-        System.out.println("Ik ben boven");
-    }
-}
+class Fiets {
+    int hmm;
+    static int mmh;
 
-class Onder extends Boven {
-    void hoi() {
-        System.out.println("ik ben beneden");
+    Fiets() {
+        System.out.println("vrijdag");
     }
 }
