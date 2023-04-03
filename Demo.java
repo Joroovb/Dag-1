@@ -5,7 +5,7 @@ class Demo{       // BE
 	   System.out.println(m.gaan().a);
 	}
 }
-class Fiets {
+class Fiets extends Voertuig {
     void voortgaan() {
         System.out.println("gaan in fiets");
     }
