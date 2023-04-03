@@ -1,20 +1,21 @@
-class Demo{       // BD
+class Demo{       // BE
 	public static void main(String[] ebc){
-	    System.out.println("maandag");
-		Fiets f = new Fiets();
-		f.mmh = 3;
-		Fiets f2 = new Fiets();
-		System.out.println(f2.mmh);
+	   Maker m = new Maker();
+	   m.gaan().voortgaan();
+	   System.out.println(m.gaan().a);
 	}
 }
 class Fiets {
-    int hmm;
-    static int mmh = jo();
-    void Fiets() {
-        System.out.println("vrijdag");
+    void voortgaan() {
+        System.out.println("gaan in fiets");
     }
-    static int jo() {
-        System.out.println("5");
-        return 6;
+}
+class Maker {
+    Fiets gaan() {
+        System.out.println("in gaan");
+        return new Fiets();
     }
+}
+class Voertuig {
+    int a;
 }
