@@ -1,11 +1,15 @@
-class Demo{       // CL
+class Demo{       // CR
 	public static void main(String[] ebc) throws Exception {
 		Koe koe = new Koe();
 		System.out.println(koe);		
 	}
 }
 
-class Koe {}
+class Koe {
+	public String toString() {
+		return "moeee";
+	}
+}
 
 class Tuin extends Koe {} 
 
