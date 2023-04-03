@@ -1,4 +1,4 @@
-class Demo{       // BC
+class Demo{       // BD
 	public static void main(String[] ebc){
 	    System.out.println("maandag");
 		Fiets f = new Fiets();
@@ -13,7 +13,7 @@ class Fiets {
     void Fiets() {
         System.out.println("vrijdag");
     }
-    int jo() {
+    static int jo() {
         System.out.println("5");
         return 6;
     }
