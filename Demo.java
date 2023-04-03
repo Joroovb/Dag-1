@@ -1,8 +1,10 @@
-class Demo{       // EA
+class Demo{       // EB
 	public static void main(String[] ebc) {
-		int a = 3;
-		int b = 5;
+		long a = 3;
+		final int b = 5;
 		switch(a) {
+			default:
+				System.out.println("Y");
 			case b:
 				System.out.println("qq");
 			case 3:
