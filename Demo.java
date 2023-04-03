@@ -1,24 +1,13 @@
-class Demo{       // CY
-	public static void main(String[] ebc) throws Exception {
-		Koe koe = new Tuin();
-		System.out.println(koe);
-		koe.rennen();	
+class Demo{       // EA
+	public static void main(String[] ebc) {
+		int a = 3;
+		int b = 5;
+		switch(a) {
+			case b:
+				System.out.println("qq");
+			case 3:
+				System.out.println("PEWPEW");
+		}
+		System.out.println("RR");
 	}
 }
-
-class Koe {
-	public String toString() {
-		return "moeee";
-	}
-
-	public void rennen() {
-		System.out.println("oei");
-	}
-}
-
-class Tuin extends Koe {
-	public void rennen() throws Error {
-		throw new RuntimeException();
-	}
-} 
-
