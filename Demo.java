@@ -1,30 +1,24 @@
-class Demo{       // EQ
-	public static void main(String[] args) throws Exception {
-        Go ab = new Eend();
-        ab.wandelen();
-        Land l = new Land();
-        l.hier().wandelen();
-        l.ho = new Eend();
+class Demo{       // EW
+	public static void main(String[] args) {
+	   new Letters();
+	   new Letters();
 	}
 }
-class Land {
-    Go ho;
-    Go hier() {
-        System.out.println("in land");
-        return new Eend();
+
+class Letters {
+    static {
+        System.out.println("c");
     }
-}
-interface Go {
-    public static final int snelheid = 4;
-    void wandelen() throws Exception;
-}
-class Eend implements Go {
-    static int oei = abc();
-    static int abc() {
-        System.out.println("in Eend");
-        return 7;
+    {
+        System.out.println("b");
     }
-    public void wandelen() {
-        System.out.println("Wandelen in Eend" + snelheid);
+    Letters() {
+        System.out.println("a");
+    }
+    {
+        System.out.println("d");
+    }
+    static {
+        System.out.println("e");
     }
 }
