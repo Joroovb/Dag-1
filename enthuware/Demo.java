@@ -1,10 +1,14 @@
-public class Demo{   // UM
+public class Demo{   // UN
 	public static void main(String[] args) {
-        float a = 50.3f;
-        System.out.println(a);
+	    Fiets f = new Fiets();
         lopen(a);
+        System.out.println("einde");
 	}
-	void lopen(double x) {
+	static void lopen(Object x) {
 	   System.out.println("We zijn hier");
 	}
+}
+
+class Fiets {
+
 }
