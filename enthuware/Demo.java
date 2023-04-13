@@ -1,7 +1,6 @@
 public class Demo{   // QL
 	public static void main(String[] args){
         Kleding jas = new Jas();
-        jas.knopen();
         System.out.println(jas.knoop);
         jas.knopen(5);
 	}
