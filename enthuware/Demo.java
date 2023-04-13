@@ -3,8 +3,8 @@ public class Demo{   // QJ
         Kleding jas = new Jas();
         // links bepaald waar we bij kunnen
         // recht bepaald wat we doen
-        System.out.println(jas.prijs);
         jas.knopen();
+        System.out.println(jas.prijs);
 	}
 }
 class Jas extends Kleding {
