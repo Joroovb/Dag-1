@@ -4,7 +4,7 @@ public class Demo{   // QE
         Jas jas = new Jas();
 	}
 }
-class Jas{
+class Jas extends Kleding {
     int knoop = knopen();
 	int knopen(){
 		System.out.println("in knopen");
