@@ -1,14 +1,11 @@
-public class Demo{   // QD
+public class Demo{   // QE
 	public static void main(String[] args){
 		System.out.println("Hij doet het");
         Jas jas = new Jas();
-        Jas jas2 = new Jas();
 	}
 }
-
-
 class Jas{
-	static int knoop = knopen();
+    int knoop = knopen();
 	int knopen(){
 		System.out.println("in knopen");
 		return 17;
@@ -16,4 +13,11 @@ class Jas{
 	Jas(){
 		System.out.println("in Jas");
 	}
+}
+class Kleding {
+    int prijs;
+    Kleding (int getal) {
+        System.out.println("In kleding");
+        prijs = getal;
+    }
 }
