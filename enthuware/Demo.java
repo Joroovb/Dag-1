@@ -1,4 +1,4 @@
-public class Demo{   // QL
+public class Demo{   // QK
 	public static void main(String[] args){
         Kleding jas = new Jas();
         System.out.println(jas.knoop);
@@ -8,7 +8,7 @@ public class Demo{   // QL
 class Jas extends Kleding {
     int knoop = 55;
     int prijs = 88;
-	int knopen() {
+	int knopen(int a) {
 		System.out.println("in knopen" + knoop);
 		super.prijs = 288;
 		return 17;
