@@ -1,7 +1,7 @@
 public class Demo{   // UN
 	public static void main(String[] args) {
 	    Fiets f = new Fiets();
-        lopen(a);
+        lopen(f);
         System.out.println("einde");
 	}
 	static void lopen(Object x) {
