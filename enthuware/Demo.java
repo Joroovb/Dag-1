@@ -1,18 +1,19 @@
-public class Demo {
-    public static void main(String[] args) {
-        ints(1);
-    }
+public class Demo{   // QB
+	public static void main(String[] args){
+		System.out.println("Hij doet het");
+		Jas jas = new Jas();
+		Jas jas2 = new Jas();
+	}
+}
 
-    static void ints(int a) {
-        System.out.println("int");
-    }
 
-    static void ints(Integer a) {
-        System.out.println("Integer");
-    }
-
-    static void ints(double a) {
-        System.out.println("double");
-    }
-
+class Jas{
+	static int knoop = knopen();
+	static int knopen(){
+		System.out.println("in knopen");
+		return 17;
+	}
+	Jas(){
+		System.out.println("in Jas");
+	}
 }
