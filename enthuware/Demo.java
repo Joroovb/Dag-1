@@ -1,24 +1,15 @@
-public class Demo{   // QK
+public class Demo{   // MA
 	public static void main(String[] args){
-        Kleding jas = new Jas();
-        System.out.println(jas.knoop);
-        jas.knopen(5);
+        System.out.println("a");
+        B b = new B();
+        b.ben();
 	}
 }
-class Jas extends Kleding {
-    int knoop = 55;
-    int prijs = 88;
-	int knopen(int a) {
-		System.out.println("in knopen" + knoop);
-		super.prijs = 288;
-		return 17;
-	}
-}
-class Kleding {
-    int prijs;
-    int knoop = 70;
-    int knopen(int a) {
-        System.out.println("In knopen kleding" + knoop);
-        return 18;
+
+class B {
+    int b;
+    void ben() {
+        System.out.println("Ben toch");
+        throw new RuntimeException();
     }
 }
