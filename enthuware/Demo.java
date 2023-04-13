@@ -1,8 +1,8 @@
-public class Demo{   // UU
+public class Demo{   // UW
 	public static void main(String[] args) {
         FietsenMaker piet = new FietsenMaker();
 	    Fiets f = piet.maken(60);
-	    Fiets f = piet.maken(40);
+	    f = piet.maken(40);
 		System.out.println("einde" + f.snelheid);
 	}
 }
