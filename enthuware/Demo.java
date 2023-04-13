@@ -1,7 +1,7 @@
 public class Demo{   // MC
 	public static void main(String[] args){
         System.out.println("a");
-        R b = new B();
+        R b = new R();
         b.ben();
 	}
 }
